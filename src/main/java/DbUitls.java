@@ -8,13 +8,13 @@ public class DbUitls {
     private static String PASSWORD = "hjx@xzit.edu.cn";
 
     //（1）加载驱动程序--放在静态块中
-    static{
+    /*static{
         try {
             Class.forName(DRIVERCLASSNAME);
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
-    }
+    }*/
 
     //（2）定义一个创建Connection对象的方法
     public static Connection getConnection() throws Exception{
