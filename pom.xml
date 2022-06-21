@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-         <mySQL-version>5.1.38</mySQL-version>
+         <mySQL-version>8.0.28</mySQL-version>
     </properties>
 
     <dependencies>
